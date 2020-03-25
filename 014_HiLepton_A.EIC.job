@@ -30,7 +30,7 @@
 ! file: ./density/nucleus.f90
 &target
 !      fermiMotion = .FALSE.
-       target_Z=  1, target_A=  2 ! proton,neutron, deuterium
+!       target_Z=  1, target_A=  2 ! proton,neutron, deuterium
 !      target_Z=  4, target_A=  9, densitySwitch_Static=4 ! Be
 !      target_Z=  6, target_A= 12, densitySwitch_Static=4 ! C
 !      target_Z=  6, target_A= 12 ! C
@@ -41,7 +41,7 @@
 !      target_Z= 29, target_A= 64 ! Cu
 !      target_Z= 36, target_A= 84 ! Kr
 !      target_Z= 54, target_A=131 ! Xe
-!      target_Z= 79, target_A=197 ! Au
+      target_Z= 79, target_A=197 ! Au
 /
 
 ! file: ./init/initHiLepton.f90
